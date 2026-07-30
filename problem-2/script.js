@@ -1,7 +1,7 @@
 function isElevatorSafe(weights) {
   // Write your code here
   if (!Array.isArray(weights)) {
-    return "invalid";
+    return "Invalid";
   }
 
   let sumOfWeights = 0;
@@ -17,5 +17,5 @@ function isElevatorSafe(weights) {
 
 }
 
-console.log(isElevatorSafe([40, 50, 70,]));
+// console.log(isElevatorSafe([40, 50, 70,]));
 
