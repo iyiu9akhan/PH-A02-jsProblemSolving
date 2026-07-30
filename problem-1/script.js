@@ -25,4 +25,7 @@ function matchWinner(teamAGoals, teamBGoals) {
       : "Draw";
 }
 
-// console.log(matchWinner(0, 0));
+console.log(matchWinner(2, 1));
+console.log(matchWinner(1, 3));
+console.log(matchWinner(2, 2));
+console.log(matchWinner("3", 2));

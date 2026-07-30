@@ -6,7 +6,7 @@ function matchWinner(teamAGoals, teamBGoals) {
         return "Invalid"
     }
 
-    return teamAGoals > teamBGoals ? "Team A Won" : teamBGoals > teamAGoals ? "Team B Won" : "Draw"
+    return teamAGoals > teamBGoals? "Team A Won" : teamBGoals > teamAGoals? "Team B Won" : "Draw"
     
 }
 
@@ -62,11 +62,10 @@ function topRatedRestaurant(restaurants) {
 /* এই ফাংশনের সব বাগ খুঁজে ঠিক করো — নাম পরিবর্তন করবে না */
 function averageResponseTime(times) {
   if (Array.isArray(times) === false) {
-        return "Invalid";
+        return "Invalid"
    }
-
    if (times.length === 0) {
-        return "Invalid";
+        return "Invalid"
     }
 
     let total = 0;
@@ -74,7 +73,7 @@ function averageResponseTime(times) {
         if (typeof times[i] !== "number"){
             return "Invalid"
         }
-        total = total + times[i];
+    total = total + times[i]
     }
 
   return total / times.length;

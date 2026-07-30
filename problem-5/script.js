@@ -18,6 +18,8 @@ function averageResponseTime(times) {
   return total / times.length;
 }
 
-// console.log(averageResponseTime([120, "200", 150]));
-// console.log(averageResponseTime([120, 200, 150, 130]));
-// console.log(averageResponseTime([]));
+console.log(averageResponseTime([120, 200, 150, 130]));
+console.log(averageResponseTime([100, 100]));
+console.log(averageResponseTime([]));
+console.log(averageResponseTime("logs"));
+console.log(averageResponseTime([120, "200", 150]));
